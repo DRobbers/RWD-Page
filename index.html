@@ -11,16 +11,35 @@
 
 </head>
 <body>
+    <header>
+        <a href="/" class="rwd-Logo">
+            <span class="rwd-Logo_Main">RWD</span>
+            <span class="rwd-Logog_Secondary">Education</span>
+            </a>
     <nav role="navigation" aria-label="main menu">
         <ul class="navbar">
-            <li><a href="/about">ABOUT</a> </li>
-            <li><a href="/people">REVIEWS</a></li>
-            <li><a href="/chapter_list">CHAPTER LIST</a></li>
-            <li><a href="/buy">BUY</a></li>
-            <li><a href="/code">CODE</a></li>
+            <li><a class="rwd-Nav_Link" href="#about">About</a> </li>
+            <li><a class="rwd-Nav_Link" href="#reviews">Reviews</a></li>
+            <li><a class="rwd-Nav_Link" href="#chapters">Chapter List</a></li>
+            <li><a class="rwd-Nav_Link" href="#buy">Buy</a></li>
         </ul>
+            <!--Using a button because this will open a small box so the user can choose code from the second or third edition of the book. note that a <button> needs a typer of button otherwise browsers default to thinking it is a submit button. That can sometimes cause buggy behavior.-->           -->
+                <button type="button" class="rwd-Nav_Link">Code</button>
+                <div class="rwd-DownloadPanel">
+                    <p class="rwd-DownloadPanel_Title">Download Code</p>
+                    <div class="twd-DownloadPanel_Links">
+                        <a
+                            href="RWD2e_download.zip"
+                            class="rwd-DownloadPanel_Link"
+                            >2nd Edition</a>
 
+                        <a
+                            href="RWD3e_download.zip"
+                            class="rwd-DownloadPanel_Link"
+                            >3rd Edition</a>
+                    </div>
+                </div>
     </nav>
-    
+    </header>
 </body>
 </html>
