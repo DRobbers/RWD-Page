@@ -22,7 +22,8 @@
     text-underline-offset: 6px;
   }
 
-  .wrapper p {
+  .rwd-Hero_Description {
     background:blueviolet;
+    color: aquamarine;
 
   }
